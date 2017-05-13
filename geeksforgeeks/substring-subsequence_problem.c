@@ -56,7 +56,6 @@ int main(void){
         scanf("%s %s", str1, str2);
         proc(str1, str2, i);
     }
-
     for(int i = 0; i<testcase; ++i)
         printf("%d\n", ans[i]);
     return 0;
